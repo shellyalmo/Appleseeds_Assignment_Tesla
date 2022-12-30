@@ -134,8 +134,9 @@ main a {
   border-radius: 50%;
   padding: 18px;
   position: fixed;
-  bottom:0;
-  right: 0;
+  bottom:70px;
+  border: 1px solid rgba(158, 156, 156, 0.702);
+  right: 20px;
   cursor: pointer;
 }
 
