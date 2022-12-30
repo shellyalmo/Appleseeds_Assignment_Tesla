@@ -50,3 +50,8 @@ main {
   text-align: left;
   padding-left: 800px;
 }
+.plus-btn{
+  border-radius: 100%;
+  border: 1px solid black;
+  width: 35px;
+}
