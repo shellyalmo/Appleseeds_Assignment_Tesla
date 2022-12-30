@@ -10,11 +10,39 @@
   flex-direction: row;
 }
 
-.models-menu,.pages-menu{
-    display: flex;
+.models-menu,
+.pages-menu {
+  display: flex;
 }
 
 .model3-section {
   color: white;
   background: url(./assets/Model-3-Main.jpg) no-repeat center center/cover;
+}
+
+main {
+  padding: 400px;
+}
+.buy-btn {
+  display: inline-block;
+  font-size: 18px;
+  background: rgb(13, 75, 115);
+  padding: 8px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+}
+.bottom {
+  display: flex;
+}
+
+.floating-chat {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  padding-left: 500px;
 }
