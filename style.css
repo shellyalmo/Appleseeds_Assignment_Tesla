@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.main-logo{
+  padding: 16px;
+}
+.main-logo h1{
+  padding-left: 8px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
