@@ -20,6 +20,9 @@ a {
 
   padding: 10px;
 }
+.menu-item:hover {
+  background: rgba(75, 76, 84, 0.592);
+}
 
 .products-menu li,
 .pages-menu li {
