@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .navbar {
@@ -45,4 +44,9 @@ main {
   border-radius: 50%;
   width: 100px;
   padding-left: 500px;
+}
+
+.safety-info {
+  text-align: left;
+  padding-left: 800px;
 }
