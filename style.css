@@ -6,12 +6,16 @@
 a {
   text-decoration: none;
 }
-.top-commercial, .top-commercial a{
+.top-commercial,
+.top-commercial a {
   font-family: book-web;
   font-size: 14px;
   text-align: center;
   color: rgb(91, 90, 90);
   padding: 16px;
+  background: white;
+  position: sticky;
+  top: 0;
 }
 /* navbar */
 .main-logo {
@@ -140,7 +144,7 @@ main a {
   border-radius: 50%;
   padding: 18px;
   position: fixed;
-  bottom:70px;
+  bottom: 70px;
   border: 1px solid rgba(158, 156, 156, 0.702);
   right: 20px;
   cursor: pointer;
