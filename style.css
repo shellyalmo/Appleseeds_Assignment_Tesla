@@ -4,21 +4,33 @@
   box-sizing: border-box;
 }
 
-.main-logo{
+/* navbar */
+.main-logo {
   padding: 16px;
 }
-.main-logo h1{
+.main-logo h1 {
   padding-left: 8px;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
+.product-item {
+  display: inline-block;
 }
 
-.models-menu,
+.products-menu li,
 .pages-menu {
-  display: flex;
+  padding: 8;
+  list-style: none;
+  display: inline-block;
+}
+.product-text {
+  color: white;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif; */
+  font-family: GothamSsm;
+}
+@font-face {
+  font-family: GothamSsm;
+  src: url(https://cdn-design.tesla.com/assets/GothamSSm-Bold_Web.woff2);
 }
 
 .model3-section {
@@ -57,22 +69,23 @@ main {
   text-align: left;
   padding-left: 800px;
 }
-.plus-btn{
+.plus-btn {
   border-radius: 100%;
   border: 1px solid black;
   width: 35px;
 }
 
-.performance-background{
-  background: url(./assets/Model-3-Performance.jpg) no-repeat center center/cover;
+.performance-background {
+  background: url(./assets/Model-3-Performance.jpg) no-repeat center
+    center/cover;
   height: 900px;
 }
-.performance-section .performance-info .features{
+.performance-section .performance-info .features {
   padding-top: 800px;
   color: white;
   padding-left: 300px;
 }
 
-footer{
+footer {
   display: flex;
 }
