@@ -52,7 +52,7 @@ a {
 
 /* main */
 main {
-  padding: 600px;
+  padding: 500px;
   color: white;
   text-align: center;
 }
@@ -80,21 +80,43 @@ main a {
   position: relative;
   bottom: 27rem;
 }
-.buy-btn {
+/* features on bottom of model3 */
+.features {
+  display: flex;
+  font-family: book-web;
+}
+.feature-item {
+  padding: 50px;
+}
+.feature-item h2 {
+  font-size: 28px;
   display: inline-block;
+}
+.feature-item p {
+  font-size: 12px;
+}
+@font-face {
+  font-family: bold-web;
+  src: url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Bold_Web.woff2);
+}
+
+.model3-section .bottom {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+}
+.buy-btn-model3-section {
+  position: relative;
+  top: 60px;
+}
+.buy-btn {
   font-size: 18px;
   background: rgb(13, 75, 115);
   padding: 8px 15px;
   border: none;
   color: white;
   cursor: pointer;
-}
-
-.features {
-  display: flex;
-}
-.bottom {
-  display: flex;
 }
 
 .floating-chat {
