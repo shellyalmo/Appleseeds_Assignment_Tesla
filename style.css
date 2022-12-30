@@ -128,11 +128,15 @@ main a {
   color: black;
   background: white;
 }
-.floating-chat {
+
+.floating-chat-btn {
   background-color: white;
   border-radius: 50%;
-  width: 100px;
-  padding-left: 500px;
+  padding: 18px;
+  position: fixed;
+  bottom:0;
+  right: 0;
+  cursor: pointer;
 }
 
 .safety-info {
