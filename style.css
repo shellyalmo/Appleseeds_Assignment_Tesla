@@ -96,6 +96,7 @@ main a {
 /* features on bottom of model3 */
 .features {
   display: flex;
+  align-items: center;
   font-family: book-web;
 }
 .feature-item {
@@ -119,10 +120,7 @@ main a {
   position: relative;
   bottom: 50px;
 }
-.buy-btn-model3-section {
-  position: relative;
-  top: 60px;
-}
+
 .buy-btn {
   font-size: 14px;
   background: transparent;
@@ -208,6 +206,16 @@ main a {
 }
 .learn-more-btn:hover {
   cursor: pointer;
+}
+
+.safety-section .buy-btn{
+  color: black;
+  border: 3px solid black;
+}
+
+.actions{
+  display: flex;
+  align-items: center;
 }
 .performance-background {
   background: url(./assets/Model-3-Performance.jpg) no-repeat center
