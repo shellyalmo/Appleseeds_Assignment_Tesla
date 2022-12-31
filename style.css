@@ -125,13 +125,15 @@ main a {
   font-size: 14px;
   background: transparent;
   font-family: medium-web;
-  padding: 8px 68px;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
   border: 3px solid white;
   color: white;
   cursor: pointer;
-  width: 204px;
   border-radius: 6%;
 }
+
 .buy-btn:hover {
   color: black;
   background: white;
@@ -192,10 +194,12 @@ main a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 112px;
+  width: 118px;
+  margin-right: 12px;
 }
 .learn-more-btn-text {
   padding: auto;
+  font-family: medium-web;
 }
 .learn-more-btn-svg {
   border-radius: 50%;
@@ -208,14 +212,19 @@ main a {
   cursor: pointer;
 }
 
-.safety-section .buy-btn{
+.safety-section .buy-btn {
   color: black;
   border: 3px solid black;
 }
 
-.actions{
+.actions {
   display: flex;
   align-items: center;
+  padding-top: 300px;
+}
+.actions .buy-btn:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
 }
 .performance-background {
   background: url(./assets/Model-3-Performance.jpg) no-repeat center
