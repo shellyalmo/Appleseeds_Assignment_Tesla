@@ -267,6 +267,7 @@ main a {
   justify-content: space-between;
   font-family: book-web;
   padding-bottom: 50px;
+  
 }
 
 .features-container {
@@ -274,6 +275,10 @@ main a {
   justify-content: center;
   width: 100%;
   align-items: flex-end;
+  line-height: 32px;
+}
+.features-container p{
+  line-height: 16px;
 }
 footer {
   font-family: book-web;
@@ -282,7 +287,7 @@ footer {
   height: 20%;
   align-items: center;
   /* padding: 17px; */
-  /* gap: 4%; */
+  gap: 4%;
 }
 footer p,
 a {
