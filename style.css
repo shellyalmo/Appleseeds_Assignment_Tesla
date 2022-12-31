@@ -3,6 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+.side-navbar {
+  position: fixed;
+  top: 40%;
+}
+
+.side-navbar li {
+  display: flex;
+  margin-top: 4px;
+  gap: 2%;
+  width: 304px;
+  align-items: center;
+  font-family: bold-web;
+}
+
+.side-navbar a {
+  color: transparent;
+  font-size: 10px;
+}
+.side-navbar a:hover {
+  color: white;
+}
+.indicator {
+  background: white;
+  width: 3px;
+  height: 25px;
+}
 .scroller {
   height: 100vh;
   overflow-y: scroll;
@@ -267,7 +293,6 @@ main a {
   justify-content: space-between;
   font-family: book-web;
   padding-bottom: 50px;
-  
 }
 
 .features-container {
@@ -277,7 +302,7 @@ main a {
   align-items: flex-end;
   line-height: 32px;
 }
-.features-container p{
+.features-container p {
   line-height: 16px;
 }
 footer {
