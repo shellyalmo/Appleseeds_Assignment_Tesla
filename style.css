@@ -23,12 +23,14 @@
 }
 .side-navbar a:hover {
   color: white;
+
 }
 .indicator {
   background: white;
   width: 3px;
   height: 25px;
 }
+
 .scroller {
   height: 100vh;
   overflow-y: scroll;
@@ -67,6 +69,7 @@ a {
 }
 .menu-item:hover {
   background: rgba(75, 76, 84, 0.592);
+  transition: border-color 0.83s ease,background-color 0.83s ease,color 0.83s ease,box-shadow 1.25s ease;
 }
 
 .products-menu li,
@@ -181,6 +184,7 @@ main a {
 .buy-btn:hover {
   color: black;
   background: white;
+  transition: border-color 0.83s ease,background-color 0.83s ease,color 0.83s ease,box-shadow 1.25s ease;
 }
 
 .floating-chat-btn {
@@ -258,9 +262,11 @@ main a {
 }
 .learn-more-btn:hover .learn-more-btn-svg {
   background-color: black;
+  transition: border-color 0.83s ease,background-color 0.83s ease,color 0.83s ease,box-shadow 1.25s ease;
 }
 .learn-more-btn:hover {
   cursor: pointer;
+  transition: border-color 0.83s ease,background-color 0.83s ease,color 0.83s ease,box-shadow 1.25s ease;
 }
 
 .safety-section .buy-btn,
@@ -276,6 +282,7 @@ main a {
 .actions .buy-btn:hover {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
+  transition: border-color 0.83s ease,background-color 0.83s ease,color 0.83s ease,box-shadow 1.25s ease;
 }
 
 /* performance section */
