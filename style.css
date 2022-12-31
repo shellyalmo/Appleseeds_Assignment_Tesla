@@ -157,7 +157,7 @@ main a {
 .safety-section {
   display: flex;
 }
-.safety-section .buy-btn{
+.safety-section .buy-btn {
   width: 60%;
 }
 
@@ -234,24 +234,32 @@ main a {
 }
 
 /* performance section */
+.performance-section {
+  height: 100vh;
+}
 .performance-background {
   background: url(./assets/Model-3-Performance.jpg) no-repeat center
     center/cover;
-  height: 400px;
+  height: 80%;
 }
 
 .performance-section .features {
-  width: 100%;
   justify-content: space-around;
   font-family: book-web;
-  align-items: end;
-  height: 100%;
 }
-
+.performance-section .feature-item {
+  width: 60%;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+}
 footer {
   font-family: book-web;
   display: flex;
-  padding: 80px;
+  height: 20%;
 }
 footer p,
 a {
