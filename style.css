@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
 a {
   text-decoration: none;
 }
@@ -61,6 +70,7 @@ a {
   color: white;
   background: url(./assets/Model-3-Main.jpg) no-repeat center center/cover;
   width: 100%;
+  height: 100vh;
 }
 
 /* main */
@@ -278,9 +288,7 @@ a {
 .left-footer h2 {
   font-size: 28px;
 }
-.left-footer {
-  /* width: 400px; */
-}
+
 .right-footer p,
 a {
   font-size: 14px;
