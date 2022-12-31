@@ -96,13 +96,14 @@ main a {
 /* features on bottom of model3 */
 .features {
   display: flex;
-  width: 700px;
+  width: 728px;
   justify-content: space-around;
   font-family: book-web;
 }
 .feature-item {
   color: white;
   text-align: center;
+  width: 28%;
 }
 .feature-item h2 {
   font-size: 28px;
@@ -110,6 +111,7 @@ main a {
 }
 .feature-item p {
   font-size: 12px;
+  line-height: 12px;
 }
 @font-face {
   font-family: bold-web;
@@ -121,20 +123,23 @@ main a {
   justify-content: center;
   position: relative;
   bottom: 50px;
+  width: 7;
 }
 
 .buy-btn {
   font-size: 14px;
   background: transparent;
   font-family: medium-web;
-  width: 27%;
-  height: 76%;
-  padding: 5px;
+  width: 204px;
+  height: 40px;
   text-align: center;
   border: 3px solid white;
   color: white;
   cursor: pointer;
   border-radius: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buy-btn:hover {
@@ -156,9 +161,6 @@ main a {
 /* safety section */
 .safety-section {
   display: flex;
-}
-.safety-section .buy-btn {
-  width: 60%;
 }
 
 .safety-features img {
@@ -218,7 +220,8 @@ main a {
   cursor: pointer;
 }
 
-.safety-section .buy-btn {
+.safety-section .buy-btn,
+.left-footer .buy-btn {
   color: black;
   border: 3px solid black;
 }
@@ -226,7 +229,6 @@ main a {
 .actions {
   display: flex;
   align-items: center;
-  padding-top: 300px;
 }
 .actions .buy-btn:hover {
   color: rgb(255, 255, 255);
@@ -241,15 +243,15 @@ main a {
   background: url(./assets/Model-3-Performance.jpg) no-repeat center
     center/cover;
   height: 80%;
+  display: flex;
 }
 
 .performance-section .features {
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: book-web;
+  padding-bottom: 50px;
 }
-.performance-section .feature-item {
-  width: 60%;
-}
+
 .features-container {
   display: flex;
   justify-content: center;
@@ -259,7 +261,11 @@ main a {
 footer {
   font-family: book-web;
   display: flex;
+  justify-content: center;
   height: 20%;
+  align-items: center;
+  /* padding: 17px; */
+  /* gap: 4%; */
 }
 footer p,
 a {
@@ -270,12 +276,17 @@ a {
   font-size: 28px;
 }
 .left-footer {
-  width: 400px;
+  /* width: 400px; */
 }
 .right-footer p,
 a {
   font-size: 14px;
 }
 .right-footer {
-  padding-left: 100px;
+  width: 42%;
+  line-height: 20px;
+}
+
+.left-footer .actions {
+  padding-top: 15px;
 }
