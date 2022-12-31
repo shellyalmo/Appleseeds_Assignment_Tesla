@@ -151,8 +151,8 @@ main a {
 }
 
 /* safety section */
-.safety-section{
-  display:flex;
+.safety-section {
+  display: flex;
 }
 
 .safety-features img {
@@ -167,17 +167,17 @@ main a {
   line-height: 1.2rem;
   height: 100vh;
 }
-.safety-info h3{
+.safety-info h3 {
   font-family: light-web;
   font-size: 17px;
   color: rgb(79, 79, 81);
   line-height: 2.6rem;
 }
-.safety-info h2{
+.safety-info h2 {
   font-family: book-web;
-  
 }
-.safety-text, .safety-link a{
+.safety-text,
+.safety-link a {
   font-size: 14px;
   font-family: light-web;
   color: rgb(49, 49, 49);
@@ -188,12 +188,27 @@ main a {
   font-weight: 500;
 }
 
-.plus-btn {
-  border-radius: 100%;
-  border: 1px solid black;
-  width: 35px;
+.learn-more-btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 112px;
 }
-
+.learn-more-btn-text {
+  padding: auto;
+}
+.learn-more-btn-svg {
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.learn-more-btn:hover .learn-more-btn-svg {
+  background-color: black;
+}
+.learn-more-btn:hover {
+  cursor: pointer;
+}
 .performance-background {
   background: url(./assets/Model-3-Performance.jpg) no-repeat center
     center/cover;
