@@ -174,19 +174,23 @@ main a {
 /* safety section */
 .safety-section {
   display: flex;
+  justify-content: space-between;
 }
 
 .safety-features img {
   padding-top: 200px;
   padding-left: 20px;
-  width: 110%;
+  width: 105%;
 }
 .safety-info {
   text-align: left;
-  padding: 32px 40px;
-  width: 95%;
+  padding: 45px;
+  width: 25%;
   line-height: 1.2rem;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .safety-info h3 {
   font-family: light-web;
